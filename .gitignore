@@ -1,0 +1,32 @@
+# Environment
+.env
+.env.local
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Cache
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# Artifacts
+*.pyc
+*.pyo
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+
+# Data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
